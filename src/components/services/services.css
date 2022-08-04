@@ -44,13 +44,14 @@
 .service_list_icon{
     color: var(--color-primary);
     margin-top: 2px;
-    width: 50%;
-    margin-right: 1rem;
+    /* width: 50%; */
+    /* margin-right: 1rem; */
+    min-width: 30px;
 }
 
 .service_list p{
     font-size: 0.9rem;
-    margin-left: -8rem;
+    /* margin-left: -8rem; */
 }
 
 /*================ MEDIA QUERY (MEDIUM DEVICES)===============*/
