@@ -60,6 +60,11 @@
     .experience_content{
         padding: 1rem;
     }
+
+    #experience{
+        margin-top: 50rem;
+    }
+
 }
 
 /*========== MEDIA QUERIES (SMALL DEVICES)============*/
@@ -72,5 +77,12 @@
         width: 100%;
         padding: 2rem 1rem;
     }
+    .header{
+        margin-top: 30rem;
+    }
+    #experience{
+        margin-top: 50rem;
+    }
+
 }
 

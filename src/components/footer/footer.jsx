@@ -5,7 +5,7 @@ import udl from '../../assets/udll.svg'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id='footer'>
       {/* <div className='footer_logo'>
       <img src={udl} alt="udl"/>
       </div> */}
