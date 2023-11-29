@@ -1,13 +1,12 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/elite.jpg'
+
 import IMG2 from '../../assets/16.jpg'
-import IMG3 from '../../assets/ux.jpg'
 
 const data=[
   {
     id: 1,
-    image: IMG2,
+    image: '',
     title: 'Pay n Drive- Admin Page (MTN-aYo)',
     github: 'https://github.com/puncho-iv',
     demo: 'https://king-prawn-app-s27ur.ondigitalocean.app/'
@@ -15,10 +14,10 @@ const data=[
 
   {
     id: 2,
-    image: IMG2,
-    title: '',
-    github: 'https://github.com/',
-    demo: 'https://www.behance.net/UNICUSDESIGNS'
+    image: '',
+    title: 'Movie Database',
+    github: 'https://github.com/puncho-iv/movieDatabase-corrections-',
+    demo: 'https://vercel.com/puncho-iv/movie-db'
   },
   {
     id: 3,
