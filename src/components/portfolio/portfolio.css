@@ -32,6 +32,12 @@
     margin-bottom: 1rem;
 }
 
+.portfolio_header{
+    text-align:center;
+    margin-bottom: 35px;
+    margin-top: 100px;
+}
+
 /*================ MEDIA QUERY (MEDIUM DEVICES)===============*/
 @media screen and (max-width:1024px) {
 .portfolio_container{

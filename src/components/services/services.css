@@ -54,6 +54,11 @@
     /* margin-left: -8rem; */
 }
 
+.header{
+    text-align: center;
+    margin-top: 100px;
+}
+
 /*================ MEDIA QUERY (MEDIUM DEVICES)===============*/
 @media screen and (max-width:1024px) {
     .container.services_container{

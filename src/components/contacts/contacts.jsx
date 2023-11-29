@@ -32,8 +32,8 @@ const Contacts = () => {
           <article className="contact_option">
             <FaWhatsapp className='contact_option-icon'/>
             <h4>WhatsApp</h4>
-            <h5>+233(0)200 662 118</h5>
-            <a href="https://api.whatsapp.com/send?phone+233200662118" target="_blank">Send message</a>
+            <h5>+233 (0) 246 414 019</h5>
+            <a href="https://api.whatsapp.com/send?phone+233246414019" target="_blank">Send message</a>
           </article>
           <article className="contact_option">
             <FaInstagram className='contact_option-icon'/>
@@ -45,7 +45,7 @@ const Contacts = () => {
         <form ref={form} onSubmit={sendEmail}>
             <input type="text" name='name' placeholder='Your Fullname' required/>
             <input type="email" name='email' placeholder='Your Email' required/>
-            <textarea name="message" rows="7" placeholder='Your Message'></textarea>
+            <textarea name="message" rows="16" placeholder='Your Message'></textarea>
             <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>
