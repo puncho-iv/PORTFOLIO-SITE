@@ -6,9 +6,9 @@ import udl from '../../assets/udll.svg'
 const Footer = () => {
   return (
     <footer>
-      <div className='footer_logo'>
+      {/* <div className='footer_logo'>
       <img src={udl} alt="udl"/>
-      </div>
+      </div> */}
     <ul className='permalinks'>
       <li><a href="#">Home</a></li>
       <li><a href="#about">About</a></li>
