@@ -8,23 +8,23 @@ const data=[
   {
     id: 1,
     image: IMG2,
-    title: 'Web Design',
-    github: 'https://github.com/',
-    demo: 'https://www.behance.net/UNICUSDESIGNS'
+    title: 'Pay n Drive- Admin Page (MTN-aYo)',
+    github: 'https://github.com/puncho-iv',
+    demo: 'https://king-prawn-app-s27ur.ondigitalocean.app/'
   },
 
   {
     id: 2,
     image: IMG2,
-    title: 'Graphic Design',
+    title: '',
     github: 'https://github.com/',
     demo: 'https://www.behance.net/UNICUSDESIGNS'
   },
   {
     id: 3,
     image: IMG2,
-    title: 'UI / UX',
-    github: 'https://github.com/',
+    title: 'Graphic Design & UI / UX',
+    github: 'https://github.com/puncho-iv',
     demo: 'https://www.behance.net/UNICUSDESIGNS'
   },
 
