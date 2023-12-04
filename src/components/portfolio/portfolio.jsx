@@ -2,11 +2,13 @@ import React from 'react'
 import './portfolio.css'
 
 import IMG2 from '../../assets/16.jpg'
+import moviedb from '../../assets/movie-db.png'
+import pnd from '../../assets/pnd.png'
 
 const data=[
   {
     id: 1,
-    image: '',
+    image: pnd,
     title: 'Pay n Drive- Admin Page (MTN-aYo)',
     github: 'https://github.com/puncho-iv',
     demo: 'https://king-prawn-app-s27ur.ondigitalocean.app/'
@@ -14,10 +16,10 @@ const data=[
 
   {
     id: 2,
-    image: '',
+    image: moviedb,
     title: 'Movie Database',
     github: 'https://github.com/puncho-iv/movieDatabase-corrections-',
-    demo: 'https://vercel.com/puncho-iv/movie-db'
+    demo: 'https://movie-5gurw3qvv-puncho-iv.vercel.app/'
   },
   {
     id: 3,
