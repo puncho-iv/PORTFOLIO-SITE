@@ -2,18 +2,20 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/face.jpg";
 import { BsAward } from "react-icons/bs";
-import { AiOutlineUsergroupAdd, AiFillFolderOpen } from "react-icons/ai";
+import { AiFillFolderOpen } from "react-icons/ai";
 
 const About = () => {
   return (
-    <section id="about">
-      <h5>Get To Know Me</h5>
-      <h2>About Me</h2>
+    <div id="about">
+      <div className="about_header">
+      <h5 className="text-light">Get To Know Me</h5>
+      <h2 className="text-light">About Me</h2>
+      </div>
 
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="About" />
           </div>
         </div>
 
@@ -55,9 +57,7 @@ const About = () => {
             React.js, implementing responsive design principles and seamlessly
             integrating APIs. My collaborative efforts with UI Designers have
             optimized interfaces, and I have a proven track record of utilizing
-            Redux for state management. I've also contributed to projects like
-            the "MTN-Ayo Pay As You Drive Client & Admin System," showcasing my skills
-            in React.js and Tailwind.css. My commitment to precision and
+            Redux for state management. My commitment to precision and
             innovative problem-solving is complemented by a proactive approach
             and strong communication skills. Let's connect and explore how I can
             bring your frontend projects to life with a focus on optimal user
@@ -68,7 +68,7 @@ const About = () => {
           </a>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

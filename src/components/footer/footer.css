@@ -61,3 +61,9 @@ footer a {
         margin-top: 50rem
     }
   }
+
+  @media screen and (max-width:1024px) {
+footer{
+    margin-top: 50rem;
+}
+}

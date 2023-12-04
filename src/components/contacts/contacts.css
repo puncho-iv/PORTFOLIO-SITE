@@ -57,6 +57,7 @@ input,textarea{
     .container.contact_container{
         grid-template-columns: 1fr;
         gap: 2rem;
+        width: 85%;
      }  
     }
     /*==================== MEDIA QUERY (SMALL DEVICES)================*/
