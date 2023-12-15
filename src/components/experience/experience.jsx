@@ -76,6 +76,13 @@ const Experience = () => {
                 {/* <small className='text-light'>Proeficient</small> */}
               </div>
             </article>
+            <article className='experience_details'>
+              <HiBadgeCheck className='experience_details-icon'/>
+              <div>
+                <h4>Laravel</h4>
+                {/* <small className='text-light'>Proeficient</small> */}
+              </div>
+            </article>
   
           </div>
         </div>

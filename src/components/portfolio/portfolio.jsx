@@ -19,7 +19,7 @@ const data=[
     image: moviedb,
     title: 'Movie Database',
     github: 'https://github.com/puncho-iv/movieDatabase-corrections-',
-    demo: 'https://movie-5gurw3qvv-puncho-iv.vercel.app/'
+    demo: 'https://movie-db-puncho-iv.vercel.app'
   },
   {
     id: 3,
