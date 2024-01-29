@@ -9,9 +9,9 @@ const data=[
   {
     id: 1,
     image: pnd,
-    title: 'Pay n Drive- Admin Page (MTN-aYo)',
+    title: 'Pay n Drive (MTN-aYo)',
     github: 'https://github.com/puncho-iv',
-    demo: 'https://king-prawn-app-s27ur.ondigitalocean.app/'
+    demo: 'https://payd.rerd.net/'
   },
 
   {
@@ -19,7 +19,7 @@ const data=[
     image: moviedb,
     title: 'Movie Database',
     github: 'https://github.com/puncho-iv/movieDatabase-corrections-',
-    demo: 'https://movie-db-puncho-iv.vercel.app'
+    demo: 'https://movie-db-git-homepage-puncho-iv.vercel.app/'
   },
   {
     id: 3,
