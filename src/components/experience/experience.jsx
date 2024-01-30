@@ -44,17 +44,17 @@ const Experience = () => {
             <article className='experience_details'>
               <HiBadgeCheck className='experience_details-icon'/>
               <div>
-                <h4>React.js</h4>
+                <h4>React</h4>
                 {/* <small className='text-light'>Proeficient</small> */}
               </div>
             </article>
-            <article className='experience_details'>
+            {/* <article className='experience_details'>
               <HiBadgeCheck className='experience_details-icon'/>
               <div>
                 <h4>Next.js</h4>
-                {/* <small className='text-light'>Proeficient</small> */}
+               
               </div>
-            </article>
+            </article> */}
             <article className='experience_details'>
               <HiBadgeCheck className='experience_details-icon'/>
               <div>
@@ -65,7 +65,7 @@ const Experience = () => {
             <article className='experience_details'>
               <HiBadgeCheck className='experience_details-icon'/>
               <div>
-                <h4>Express.js</h4>
+                <h4>Express</h4>
                 {/* <small className='text-light'>Proeficient</small> */}
               </div>
             </article>
@@ -76,13 +76,7 @@ const Experience = () => {
                 {/* <small className='text-light'>Proeficient</small> */}
               </div>
             </article>
-            <article className='experience_details'>
-              <HiBadgeCheck className='experience_details-icon'/>
-              <div>
-                <h4>Laravel</h4>
-                {/* <small className='text-light'>Proeficient</small> */}
-              </div>
-            </article>
+           
   
           </div>
         </div>

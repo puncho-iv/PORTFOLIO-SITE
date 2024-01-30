@@ -19,12 +19,12 @@ const data=[
     image: moviedb,
     title: 'Movie Database',
     github: 'https://github.com/puncho-iv/movieDatabase-corrections-',
-    demo: 'https://movie-db-git-homepage-puncho-iv.vercel.app/'
+    demo: 'https://movie-db-alpha-drab.vercel.app/'
   },
   {
     id: 3,
     image: IMG2,
-    title: 'Graphic Design & UI / UX',
+    title: 'Graphic Design',
     github: 'https://github.com/puncho-iv',
     demo: 'https://www.behance.net/UNICUSDESIGNS'
   },
