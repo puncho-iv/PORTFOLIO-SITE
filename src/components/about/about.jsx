@@ -5,6 +5,8 @@ import { BsAward } from "react-icons/bs";
 import { AiFillFolderOpen } from "react-icons/ai";
 
 const About = () => {
+  let experience = 2
+  experience += 1
   return (
     <div id="about">
       <div className="about_header">
@@ -24,46 +26,29 @@ const About = () => {
             <article className="about_card">
               <BsAward className="about_icon" />
               <h5>Experience</h5>
-              <small>2 Years Experience</small>
+              <small>{experience} Years Experience</small>
             </article>
 
-            <div className="about_content">
-              <div className="about_cards">
-                <article className="about_card">
+       
+                <a href="#portfolio" className="about_card" >
                   <AiFillFolderOpen className="about_icon" />
                   <h5>Projects</h5>
                   <small>5+ Projects</small>
-                </article>
-
-                {/* <div className="about_content">
-                  <div className="about_cards">
-                    <article className="about_card">
-                      <AiOutlineUsergroupAdd className="about_icon" />
-                      <h5>Clients</h5>
-                      <small>50+ Worldwide</small>
-                    </article>
-                  </div>
-                </div> */}
-              </div>
+                </a>
+          
             </div>
-          </div>
+    
 
           <p>
-            I am a results-oriented Frontend
-            Developer passionate about crafting seamless user experiences.
-            Specializing in JavaScript, TypeScript, HTML, and CSS, I bring
-            expertise in React, React-Native and Redux to the table. In my role at Chiwara
-            Development, I've developed and maintained web applications using
-            React.js, implementing responsive design principles and seamlessly
-            integrating APIs. My collaborative efforts with UI Designers have
-            optimized interfaces, and I have a proven track record of utilizing
-            Redux for state management. My commitment to precision and
-            innovative problem-solving is complemented by a proactive approach
-            and strong communication skills. Let's connect and explore how I can
-            bring your frontend projects to life with a focus on optimal user
-            experiences.
+          👋 Hi there! I am a passionate Frontend Developer with a knack for crafting seamless user experiences. My expertise spans JavaScript, TypeScript, HTML, and CSS. Over the years, I have honed my skills in React, React-Native, and Redux.
+
+
           </p>
-          <a href="#contact" className="btn btn-primary">
+          <p>
+🚀 At Chiwara Development, I have contributed to the development and maintenance of web applications using React.js. My approach prioritizes responsive design principles and seamless API integration. Collaborating closely with UI Designers, I have optimized interfaces to create intuitive user experiences.
+
+Let’s connect and explore how I can bring your frontend projects to life! 🌟</p>
+          <a href="#contacts" className="btn btn-primary">
             Let's Talk
           </a>
         </div>
