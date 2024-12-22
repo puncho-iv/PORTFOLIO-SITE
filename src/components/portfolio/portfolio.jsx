@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-
+import LandingPage from "../../assets/Screenshot from 2024-12-22 09-27-52.png"
 import IMG2 from "../../assets/16.jpg";
 import moviedb from "../../assets/movie-db.png";
 import pnd from "../../assets/pnd.png";
@@ -31,8 +31,16 @@ const data = [
     github: "https://github.com/puncho-iv/movieDatabase-corrections-",
     demo: "https://movie-db-alpha-drab.vercel.app/",
   },
+
   {
     id: 4,
+    image: LandingPage,
+    title: "Pay and Drive Landing Page",
+    github: "",
+    demo: "https://pnd-landing-page-9qwyk.ondigitalocean.app/",
+  },
+  {
+    id: 5,
     image: IMG2,
     title: "Graphic Design",
     github: "https://github.com/puncho-iv",

@@ -19,7 +19,7 @@ const skillsData = [
   },
   {
     category: "Backend Development",
-    skills: ["Nestjs", "Node", "Express", "MongoDB", "Postgres"],
+    skills: ["Nestjs", "Node", "Express", "Graphql", "MongoDB", "Postgres"],
   },
   {
     category: "Graphic & UI Design",
