@@ -20,7 +20,20 @@
 .portfolio_item-image {
   border-radius: 1.5rem;
   overflow: hidden;
+  max-height: 500px;
+  object-fit: contain;
+  width: auto;
 }
+
+.portfolio_img-small {
+  max-height: 100px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  padding: 5px 0px 10px 0 ;
+}
+
 
 .portfolio_item-image img {
   width: 100%;

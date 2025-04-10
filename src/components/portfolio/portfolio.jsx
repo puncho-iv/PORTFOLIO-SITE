@@ -1,9 +1,11 @@
 import React from "react";
 import "./portfolio.css";
-import LandingPage from "../../assets/Screenshot from 2024-12-22 09-27-52.png"
+import moviedb from "../../assets/Screenshot from 2025-04-06 09-44-03.png";
 import IMG2 from "../../assets/16.jpg";
-import moviedb from "../../assets/movie-db.png";
-import pnd from "../../assets/pnd.png";
+// import moviedb from "../../assets/movie-db.png";
+import pnd from "../../assets/dashboard_duologo.svg";
+import engineer from "../../assets/logo.svg";
+import swift from "../../assets/Artboard 1.svg";
 
 const data = [
   {
@@ -25,19 +27,47 @@ const data = [
   },
 
   {
+    id: 4,
+    image: pnd,
+    title: "Pay and Drive Landing Page",
+    github: "",
+    demo: "https://pnd-landing-page-9qwyk.ondigitalocean.app/",
+  },
+
+  {
+    id: 6,
+    image: engineer,
+    title: "Engineers and Planners Procurement Web Application",
+    github: "",
+    demo: "",
+  },
+  {
+    id: 6,
+    image: engineer,
+    title: "Engineers and Planners Procurement Department Web Application",
+    github: "",
+    demo: "",
+  },
+  {
+    id: 6,
+    image: engineer,
+    title: "Engineers and Planners Procurement Admin Web Application",
+    github: "",
+    demo: "",
+  },
+  {
     id: 3,
     image: moviedb,
     title: "Movie Database",
     github: "https://github.com/puncho-iv/movieDatabase-corrections-",
     demo: "https://movie-db-alpha-drab.vercel.app/",
   },
-
   {
-    id: 4,
-    image: LandingPage,
-    title: "Pay and Drive Landing Page",
+    id: 7,
+    image: swift,
+    title: "Point of Sale System",
     github: "",
-    demo: "https://pnd-landing-page-9qwyk.ondigitalocean.app/",
+    demo: "",
   },
   {
     id: 5,
@@ -60,9 +90,20 @@ const Portfolio = () => {
           return (
             <article key={id} className="portfolio_item">
               <div className="portfolio_item-image">
-                <img src={image} alt={title} />
+                <img
+                  src={image}
+                  alt={title}
+                  className={
+                    title.includes("Pay")
+                      ? "portfolio_img-small"
+                      : "" || title.includes("Engineer")
+                      ? "portfolio_img-small"
+                      : ""
+                  }
+                />
               </div>
-              <div>
+
+              <div className="portfolio_item-content">
                 <h3>{title}</h3>
                 {loginDetails && (
                   <div className="portfolio_item-login">
@@ -70,6 +111,7 @@ const Portfolio = () => {
                   </div>
                 )}
               </div>
+
               <div className="portfolio_item-cta">
                 <a href={github} className="btn" target="_blank">
                   Github
