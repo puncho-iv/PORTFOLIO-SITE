@@ -1,5 +1,5 @@
 import React from 'react'
-import CV3 from '../../assets/CV3.pdf'
+import CV3 from '../../assets/cv.pdf'
 import './header.css'
 
 const CTA = () => {
