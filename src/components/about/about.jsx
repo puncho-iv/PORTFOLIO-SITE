@@ -5,7 +5,7 @@ import { BsAward } from "react-icons/bs";
 import { AiFillFolderOpen } from "react-icons/ai";
 
 const About = () => {
-  let experience = 2;
+  let experience = 3;
   experience += 1;
   return (
     <div id="about">
@@ -32,7 +32,7 @@ const About = () => {
             <a href="#portfolio" className="about_card">
               <AiFillFolderOpen className="about_icon" />
               <h5>Projects</h5>
-              <small>5+ Projects</small>
+              <small>6+ Projects</small>
             </a>
           </div>
 
