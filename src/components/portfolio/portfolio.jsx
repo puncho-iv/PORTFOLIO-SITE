@@ -2,9 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import moviedb from "../../assets/Screenshot from 2025-04-06 09-44-03.png";
 import IMG2 from "../../assets/16.jpg";
-// import moviedb from "../../assets/movie-db.png";
 import pnd from "../../assets/dashboard_duologo.svg";
-import engineer from "../../assets/logo.svg";
 import swift from "../../assets/Artboard 1.svg";
 
 const data = [
@@ -13,47 +11,23 @@ const data = [
     image: pnd,
     title: "Pay n Drive (MTN-aYo)",
     github: "https://github.com/puncho-iv",
-    demo: "https://payd.rerd.net/",
-    loginDetails: "username: 0246414019 password: 6645",
+    demo: "https://app.ayoghana.com",
+    // loginDetails: "username: 0246414019 password: 6645",
   },
-
   {
     id: 2,
     image: pnd,
     title: "Pay n Drive Admin System",
     github: "https://github.com/puncho-iv",
-    demo: "https://payd.rerd.net/",
+    demo: "https://adminpayd.ayoghana.com",
     loginDetails: "request login details",
   },
-
   {
     id: 4,
     image: pnd,
     title: "Pay and Drive Landing Page",
     github: "",
     demo: "https://pnd-landing-page-9qwyk.ondigitalocean.app/",
-  },
-
-  {
-    id: 6,
-    image: engineer,
-    title: "Engineers and Planners Procurement Web Application",
-    github: "",
-    demo: "",
-  },
-  {
-    id: 6,
-    image: engineer,
-    title: "Engineers and Planners Procurement Department Web Application",
-    github: "",
-    demo: "",
-  },
-  {
-    id: 6,
-    image: engineer,
-    title: "Engineers and Planners Procurement Admin Web Application",
-    github: "",
-    demo: "",
   },
   {
     id: 3,
